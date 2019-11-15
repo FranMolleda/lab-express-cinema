@@ -56,3 +56,5 @@ app.use('/', index);
 
 
 module.exports = app;
+
+app.listen(3000, () => console.log("My cinema project running on port 3000 🎧 🥁 🎸 🔊"));
